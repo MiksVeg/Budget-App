@@ -1,5 +1,5 @@
 # Use the official Ruby image as a base image
-FROM ruby:3.2.5
+FROM ruby:3.1.2
 
 # Install dependencies
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
